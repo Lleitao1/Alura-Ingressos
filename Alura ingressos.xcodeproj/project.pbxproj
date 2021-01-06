@@ -17,6 +17,7 @@
 		3AB0094125A6313200B57FF3 /* banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AB0093E25A6313200B57FF3 /* banner.png */; };
 		3AB0094225A6313200B57FF3 /* bandeiras_cartoes.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AB0093F25A6313200B57FF3 /* bandeiras_cartoes.png */; };
 		3AB0094325A6313200B57FF3 /* logo_alura.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AB0094025A6313200B57FF3 /* logo_alura.png */; };
+		3AB0094725A6625D00B57FF3 /* ValidaFormulario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB0094625A6625D00B57FF3 /* ValidaFormulario.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		3AB0093E25A6313200B57FF3 /* banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner.png; sourceTree = "<group>"; };
 		3AB0093F25A6313200B57FF3 /* bandeiras_cartoes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bandeiras_cartoes.png; sourceTree = "<group>"; };
 		3AB0094025A6313200B57FF3 /* logo_alura.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_alura.png; sourceTree = "<group>"; };
+		3AB0094625A6625D00B57FF3 /* ValidaFormulario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidaFormulario.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				3AB0090F25A6063100B57FF3 /* AppDelegate.swift */,
+				3AB0094425A6622100B57FF3 /* Model */,
+				3AB0094525A6623C00B57FF3 /* Controller */,
 				3AB0091125A6063100B57FF3 /* ViewController.swift */,
 				3AB0091325A6063100B57FF3 /* Main.storyboard */,
 				3AB0091625A6063300B57FF3 /* Assets.xcassets */,
@@ -140,6 +144,21 @@
 				3AB0094025A6313200B57FF3 /* logo_alura.png */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		3AB0094425A6622100B57FF3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3AB0094625A6625D00B57FF3 /* ValidaFormulario.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3AB0094525A6623C00B57FF3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AB0091225A6063100B57FF3 /* ViewController.swift in Sources */,
+				3AB0094725A6625D00B57FF3 /* ValidaFormulario.swift in Sources */,
 				3AB0091025A6063100B57FF3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
