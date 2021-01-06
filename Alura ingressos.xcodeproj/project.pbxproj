@@ -14,6 +14,9 @@
 		3AB0091A25A6063300B57FF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AB0091825A6063300B57FF3 /* LaunchScreen.storyboard */; };
 		3AB0092525A6063300B57FF3 /* Alura_ingressosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB0092425A6063300B57FF3 /* Alura_ingressosTests.swift */; };
 		3AB0093025A6063300B57FF3 /* Alura_ingressosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB0092F25A6063300B57FF3 /* Alura_ingressosUITests.swift */; };
+		3AB0094125A6313200B57FF3 /* banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AB0093E25A6313200B57FF3 /* banner.png */; };
+		3AB0094225A6313200B57FF3 /* bandeiras_cartoes.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AB0093F25A6313200B57FF3 /* bandeiras_cartoes.png */; };
+		3AB0094325A6313200B57FF3 /* logo_alura.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AB0094025A6313200B57FF3 /* logo_alura.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		3AB0092B25A6063300B57FF3 /* Alura ingressosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alura ingressosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AB0092F25A6063300B57FF3 /* Alura_ingressosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alura_ingressosUITests.swift; sourceTree = "<group>"; };
 		3AB0093125A6063300B57FF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AB0093E25A6313200B57FF3 /* banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner.png; sourceTree = "<group>"; };
+		3AB0093F25A6313200B57FF3 /* bandeiras_cartoes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bandeiras_cartoes.png; sourceTree = "<group>"; };
+		3AB0094025A6313200B57FF3 /* logo_alura.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_alura.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,7 @@
 				3AB0091325A6063100B57FF3 /* Main.storyboard */,
 				3AB0091625A6063300B57FF3 /* Assets.xcassets */,
 				3AB0091825A6063300B57FF3 /* LaunchScreen.storyboard */,
+				3AB0093D25A6313200B57FF3 /* Assets */,
 				3AB0091B25A6063300B57FF3 /* Info.plist */,
 			);
 			path = "Alura ingressos";
@@ -123,6 +130,16 @@
 				3AB0093125A6063300B57FF3 /* Info.plist */,
 			);
 			path = "Alura ingressosUITests";
+			sourceTree = "<group>";
+		};
+		3AB0093D25A6313200B57FF3 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				3AB0093E25A6313200B57FF3 /* banner.png */,
+				3AB0093F25A6313200B57FF3 /* bandeiras_cartoes.png */,
+				3AB0094025A6313200B57FF3 /* logo_alura.png */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +246,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AB0094325A6313200B57FF3 /* logo_alura.png in Resources */,
 				3AB0091A25A6063300B57FF3 /* LaunchScreen.storyboard in Resources */,
 				3AB0091725A6063300B57FF3 /* Assets.xcassets in Resources */,
 				3AB0091525A6063100B57FF3 /* Main.storyboard in Resources */,
+				3AB0094125A6313200B57FF3 /* banner.png in Resources */,
+				3AB0094225A6313200B57FF3 /* bandeiras_cartoes.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
